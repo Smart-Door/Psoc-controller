@@ -15,6 +15,7 @@
 #define UART_COMM_H
 
 void Handle_UART_Command(void);
+void processCommand(const char* command);
 
 #endif // UART_COMM_H
 
