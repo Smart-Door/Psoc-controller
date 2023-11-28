@@ -18,8 +18,8 @@
 
 int venter_10_sek = 10000;
 
-// Function prototype for processing commands
-void processCommand(const char* command);
+
+
 
 void processCommand(const char* command) {
     // Process the command here
