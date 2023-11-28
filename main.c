@@ -22,15 +22,11 @@ int main(void)
     
     UART_1_Start();
     
-    UART_1_PutString("Hello bitch! program begins now\r\n");
+    UART_1_PutString("Program begins now\r\n");
     
     for(;;)
     {
-//        bool test = CheckWeight();
-//         if (test) {
-//            UART_1_PutString("Weight threshold exceeded!\r\n");
-//        }
-        
+
         /* Place your application code here. */
         Handle_UART_Command();
         
